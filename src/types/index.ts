@@ -29,10 +29,10 @@ export interface Card {
  * Experiences, Companies, Projects, Personals 는 동일한 Card UI로 표현되며, 동일한 구조의 데이터를 입력받을 수 있습니다.
  * */
 export interface Resume {
-  experiences: Card[];
+  experiences?: Card[];
   companies: Card[];
   projects: Card[];
-  personals: Card[];
+  personals?: Card[];
 }
 
 export type TranslationSupport = "en" | "ko";

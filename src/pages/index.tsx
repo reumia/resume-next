@@ -13,7 +13,7 @@ const Home = () => {
         {Object.keys(RESUME).map((key) => {
           const typedKey = key as keyof Resume;
           const value = RESUME[typedKey];
-          return <Cards key={key} title={typedKey} data={value} />;
+          return value && <Cards key={key} title={typedKey} data={value} />;
         })}
       </main>
       <Footer className="app-footer" />
