@@ -41,7 +41,4 @@ type A = keyof Card;
 
 export type TranslationKeys = keyof Card | keyof Resume;
 
-export type Translations = Record<
-  TranslationSupport,
-  Record<TranslationKeys, string>
->;
+export type Translations = Record<TranslationKeys, string>;
