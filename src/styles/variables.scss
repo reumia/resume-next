@@ -1,0 +1,39 @@
+/* Fonts */
+
+$font-family: sans-serif;
+$font-size: 16px;
+$font-size-larger: 18px;
+$font-size-largest: 24px;
+$font-size-smaller: 14px;
+$font-size-smallest: 12px;
+$line-height: 1.5;
+
+/* Colors */
+
+$color-background: #fff;
+$color-background-darker: #f3f3f3;
+$color-background-darkest: #eee;
+$color-text: #333;
+$color-text-lighter: lighten($color-text, 30);
+$color-text-lightest: lighten($color-text, 50);
+$color-brand: tomato;
+
+/* Units */
+
+$space-unit: 16px;
+$radius-unit: 4px;
+$shadow-unit: 0 2px 0 transparentize(#000, .95);
+$transition-unit: ease 0.2s;
+
+/* Extends */
+
+%replacement {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
