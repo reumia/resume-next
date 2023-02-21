@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export:build": "next build && next export",
+    "export:serve": "npx http-server ./out"
   },
   "dependencies": {
     "@next/font": "13.1.6",

@@ -5,7 +5,7 @@ import PROFILE from "@/data/profile";
 import RESUME from "@/data/resume";
 import { Resume } from "@/types";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="app">
       <Header className="app-header" profile={PROFILE} />
@@ -19,4 +19,6 @@ export default function Home() {
       <Footer className="app-footer" />
     </div>
   );
-}
+};
+
+export default Home;
