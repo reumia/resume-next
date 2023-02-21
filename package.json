@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "export:build": "next build && next export",
-    "export:serve": "npx http-server ./out"
+    "export:serve": "npx http-server ./out",
+    "export:deploy": "yarn export:build && firebase deploy"
   },
   "dependencies": {
     "@next/font": "13.1.6",
