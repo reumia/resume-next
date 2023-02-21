@@ -1,81 +1,56 @@
 import { Resume } from "@/types";
 
 const RESUME: Resume = {
-  experiences: [
-    {
-      name: "Front-end",
-      skills: [
-        "React",
-        "Angular",
-        "VanillaJS",
-        "ES6",
-        "Babel",
-        "TypeScript",
-        "Sass",
-        "HTML",
-      ],
-    },
-    {
-      name: "Back-end",
-      skills: ["Node.js", "Express", "Koa", "mySQL", "node-orm2"],
-    },
-    {
-      name: "Tools",
-      skills: ["Webpack", "Gulp", "Git", "JIRA", "Lint"],
-    },
-    { name: "Platforms", skills: ["Firebase", "Heroku"] },
-  ],
   companies: [
     {
+      name: "Lunit",
+      roles: ["Front-end Team Leader", "Front-end Software Architect"],
+    },
+    {
       name: "NAVER",
-      roles: ["Front-end Dev.", "Node.js Server Dev."],
+      roles: ["Front-end Developer"],
     },
     {
       name: "PUBG Co.",
-      roles: ["Front-end Dev."],
+      roles: ["Front-end Developer"],
     },
     {
       name: "SK Techx",
-      roles: ["Front-end Dev."],
+      roles: ["Front-end Developer"],
     },
     {
       name: "NHN Technology Services",
-      roles: ["Front-end Dev.", "Node.js"],
+      roles: ["Front-end Developer"],
     },
     {
       name: "Freeneo",
-      roles: ["Front-end Dev.", "Web Design"],
+      roles: ["Front-end Developer", "Web Design"],
     },
   ],
   projects: [
     {
       name: "Smartstore React 전환 및 운영",
       company: "NAVER",
-      roles: ["Front-end Dev.", "Node.js Server Dev,"],
       skills: ["React", "Webpack", "Typescript", "ESLint", "Koa", "Node.js"],
     },
     {
       name: "Selective 서비스 오픈",
       company: "NAVER",
-      roles: ["Front-end Dev."],
       skills: ["React", "Webpack", "ESLint", "JavaScript"],
     },
     {
       name: "Playerunknown's Battleground Lobby Store 개편",
       company: "PUBG Co.",
-      roles: ["Front-end Dev."],
       skills: ["Angular", "Redux", "SCSS"],
     },
     {
       name: "Mobile용 사내 경제지표 도구 개발",
       company: "PUBG Co.",
-      roles: ["Front-end Dev.", "UI Design"],
       skills: ["React", "SCSS"],
     },
     {
       name: "통합 운송 서비스 어플리케이션 웹뷰 개발",
       company: "SK Techx",
-      roles: ["Front-end Dev."],
       skills: ["React", "Redux", "Express", "Node.js", "Webpack", "SCSS"],
       descriptions: [
         "앱 연동테스트를 위한 Heroku Serveless 개발용 서버 구축 및 운용",
@@ -85,7 +60,6 @@ const RESUME: Resume = {
     {
       name: "카셰어링 서비스 어플리케이션 웹뷰, 웹서비스, 백오피스 개발",
       company: "SK Techx",
-      roles: ["Front-end Dev."],
       skills: ["Handlebars", "React", "Redux", "D3", "SSR", "Webpack", "SCSS"],
       descriptions: [
         "NPM, Webpack Task으로 자동화, Bundling 환경 구축",
@@ -99,7 +73,6 @@ const RESUME: Resume = {
     {
       name: "AD UI Tester 개발",
       company: "NHN Technology Services",
-      roles: ["Node.js Dev."],
       skills: ["PhantomJS", "CasperJS", "Express"],
       descriptions: [
         "네이버 서비스 전반에 삽입될 광고 UI의 Markup 산출물 자동검수도구 개발",
@@ -118,7 +91,6 @@ const RESUME: Resume = {
     {
       name: "NAVER 프로필 '내 캐릭터 만들기' 기능 개발",
       company: "NHN Technology Services",
-      roles: ["Front-end Dev."],
       skills: ["HTML", "SCSS", "Canvas"],
       descriptions: [
         "Cross-device 및 NAVER in-app 환경 UI 개발",
@@ -128,7 +100,6 @@ const RESUME: Resume = {
     {
       name: "LINEPLAY PC Web Diary 개발",
       company: "NHN Technology Services",
-      roles: ["Front-end Dev."],
       skills: ["HTML", "SCSS", "jQuery"],
       descriptions: [
         "모바일 게임 LINEPLAY의 SNS 형태의 PC Web Diary 개발",
@@ -138,7 +109,6 @@ const RESUME: Resume = {
     {
       name: "NAVER Grafolio UI 개편 및 운영",
       company: "NHN Technology Services",
-      roles: ["Front-end Dev."],
       skills: ["HTML", "SCSS", "Gulp", "jQuery"],
       descriptions: [
         "아티스트 포트폴리오 플랫폼 Grafolio 서비스 UI 개편 및 운영",
@@ -148,7 +118,6 @@ const RESUME: Resume = {
     {
       name: "NAVER 지식백과/네이버캐스트 운영 및 NAVER 컨텐츠 검수 도구 운영",
       company: "NHN Technology Services",
-      roles: ["Front-end Dev."],
       skills: ["HTML", "CSS"],
       descriptions: [
         "NAVER 핵심 서비스의 강도 높은 Cross-browsing 운영 경험",
@@ -160,7 +129,6 @@ const RESUME: Resume = {
     {
       name: "여행랜드사 웹솔루션 Backoffice UI 개편",
       company: "Freeneo",
-      roles: ["Front-end Dev.", "Design"],
       skills: ["PHP", "CSS", "jQuery"],
       url: "https://goo.gl/cKJz2F",
       descriptions: [
@@ -171,64 +139,13 @@ const RESUME: Resume = {
     {
       name: "Sheraton 인천 웹사이트 개발",
       company: "Freeneo",
-      roles: ["Front-end Dev."],
       skills: ["PHP", "jQuery", "SCSS", "Web Accessibility"],
       descriptions: ["한국웹접근성평가원 KWACC 인증 마크 획득"],
     },
     {
       name: "HUONS 그룹 및 제품 웹사이트 개발",
       company: "Freeneo",
-      roles: ["Front-end Dev.", "Design"],
       skills: ["Wordpress", "PHP", "jQuery", "SCSS"],
-    },
-  ],
-  personals: [
-    {
-      name: "Discordee",
-      roles: ["Front-end Dev.", "Back-end Dev.", "Design"],
-      skills: [
-        "Firebase",
-        "Heroku",
-        "React",
-        "Redux",
-        "Express",
-        "Webpack",
-        "Oauth2",
-        "i18n",
-        "SCSS",
-      ],
-      descriptions: [
-        "게임 음성채팅 어플리케이션 Discord의 미비한 서버 검색 기능을 해결하기 위한 Discord 서버 검색 플랫폼",
-        "Discord Development API를 통한 Oauth2 인증체계 구현",
-      ],
-    },
-    {
-      name: "ifKiller",
-      roles: ["Front-end Dev."],
-      skills: ["Handlebars", "jQuery", "Webpack", "SCSS"],
-      descriptions: [
-        "Java 코드 검수 및 네이밍 추천 서비스 ifKiller의 Front-end 개발",
-        "Web에서 사용가능한 Full-screen Editor UI 구현",
-      ],
-    },
-    {
-      name: "Resume",
-      url: "https://github.com/reumia/resume",
-      roles: ["Front-end Dev.", "Design"],
-      skills: ["React", "Webpack", "SCSS"],
-      descriptions: [
-        "JSON 데이터를 기반으로 개발자를 위한 단일 페이지의 이력서 웹사이트를 만들어주는 도구",
-        "본 이력서 웹사이트를 구축하는데에 활용",
-      ],
-    },
-    {
-      name: "정적블로그생성 플랫폼 Hexo의 Theme 개발",
-      url: "https://goo.gl/A319ZX",
-      skills: ["HTML", "SCSS", "Markdown", "Node.js"],
-      descriptions: [
-        "Responsive, One-column 레이아웃의 Theme 개발",
-        "Hexo 플랫폼의 첫번째 한글 Theme",
-      ],
     },
   ],
 };
