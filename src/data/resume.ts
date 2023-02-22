@@ -70,6 +70,7 @@ const RESUME: Resume = {
         "Vercel",
         "Github Actions",
       ],
+      url: "https://zzoman.com/2021/12/29/recoil-suspense-error-boundary/",
       descriptions: [
         "방사선 이미지에 병변을 표시하여 빅데이터 기반 AI모델을 수집하는 어노테이션 도구 개발/개편/운영",
         "특정 AI 모델 개발을 위해 일회성으로 요청/개발/폐기되던 어노테이션 도구를 지속적으로 운영하고 신규 기능을 추가할 수 있는 도구로 개편",
@@ -246,7 +247,6 @@ const RESUME: Resume = {
       name: "여행랜드사 웹솔루션 Backoffice UI 개편",
       company: "Freeneo",
       skills: ["PHP", "CSS", "jQuery"],
-      url: "https://goo.gl/cKJz2F",
       descriptions: [
         "인쇄하여 송장으로 사용할 수 있는 구조의 동적인 Table UI 기획 및 개발",
         "Bootstrap UI Framework 활용한 브랜드 UI 가이드 작성",
